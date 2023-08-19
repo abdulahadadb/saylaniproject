@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background: #91e7e5 !important;
+}
+
+.container{
+    background: #4b4e7e;
+    width: 70% !important;
+    height: 75vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    opacity: 2;
+}
+
+.user-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   margin: 0 auto;
+   
+}
+
+#Profile-pic{
+    background: #fff;
+    object-fit: cover;
+    margin-top: 30px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+#file{
+    display: none;
+}
+#Upload-btn{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    padding: 6px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-90%);
+    margin-top: 120px;
+    color: #2c2727;
+    background-color: rgb(173, 172, 172, 0.801);
+    box-shadow: 2px 4px 4px rgb(0, 0, 0,0.644);
+}
+
+
+.data h1,h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Robota';
+    margin-top: 5% !important;
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+}
+
+.chattext{
+    width: 100%;
+    
+}
+.chaticon{
+    color: antiquewhite;
+}
+.chaticon:active{
+    opacity: 0.5;
+    zoom: 1.1;
+}
+
+.div ,h1 ,h2{
+    color: antiquewhite !important;
+    
+}
+
+
+/* CSS for the loader */
+.loderbg{
+    z-index: 99;
+}
+
+.loader {
+    margin-top: 5px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+    display: none; /* Hidden by default */
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+
+
+
